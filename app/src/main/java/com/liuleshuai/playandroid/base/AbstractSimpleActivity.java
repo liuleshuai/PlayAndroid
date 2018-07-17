@@ -9,7 +9,7 @@ import me.yokeyword.fragmentation.SupportActivity;
  * Created by LiuKuo at 2018/7/17
  */
 
-public abstract class abstractSimpleActivity extends SupportActivity {
+public abstract class AbstractSimpleActivity extends SupportActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -23,7 +23,12 @@ public abstract class abstractSimpleActivity extends SupportActivity {
         super.onDestroy();
     }
 
-    protected abstract void onViewCreated();
+    protected void onViewCreated() {
 
+    }
+
+    /**
+     * 数据、事件初始化
+     */
     protected abstract void initEventAndData();
 }

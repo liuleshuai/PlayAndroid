@@ -29,8 +29,12 @@ dependencies {
     //fragmentation
     implementation "me.yokeyword:fragmentation:$rootProject.fragmentationVersion"
     implementation "me.yokeyword:fragmentation-swipeback:$rootProject.fragmentationVersion"
-
     //butterknife
     implementation "com.jakewharton:butterknife:$rootProject.butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknifeVersion"
+    //RxJava2 和 RxAndroid
+    implementation"io.reactivex.rxjava2:rxjava:$rootProject.rxjavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+    //RxBinding（支持RxJava2的版本）
+    implementation "com.jakewharton.rxbinding2:rxbinding:$rootProject.rxbindingVersion"
 }
