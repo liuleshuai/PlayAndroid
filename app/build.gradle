@@ -26,6 +26,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    //material design
+    compile "com.android.support:design:$rootProject.supportLibraryVersion"
     //fragmentation
     implementation "me.yokeyword:fragmentation:$rootProject.fragmentationVersion"
     implementation "me.yokeyword:fragmentation-swipeback:$rootProject.fragmentationVersion"

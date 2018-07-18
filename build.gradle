@@ -33,6 +33,7 @@ ext {
 
     // App dependencies
     supportLibraryVersion = "27.+"
+    supportLibraryVersion = "27.+"
     fragmentationVersion = "1.3.5"
     butterknifeVersion = "8.8.1"
     rxjavaVersion="2.1.5"
